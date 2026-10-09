@@ -1,0 +1,22 @@
+[project]
+name = "webcame-saerius"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Naryama", email = "kylia733@gmail.com" }
+]
+requires-python = ">=3.14"
+dependencies = [
+    "mediapipe>=1.0.1",
+    "requests>=2.34.2",
+    "streamlit>=1.65.0",
+    "streamlit-webrtc>=0.78.1",
+]
+
+[project.scripts]
+webcame-saerius = "webcame_saerius:main"
+
+[build-system]
+requires = ["uv_build>=0.12.21,<0.13.0"]
+build-backend = "uv_build"

@@ -1,0 +1,3 @@
+# Virtual Environment (Sangat penting agar GitHub tidak berat)
+.venv/
+venv/
